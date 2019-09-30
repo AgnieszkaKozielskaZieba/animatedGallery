@@ -1,5 +1,5 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
 
 h1 {
   text-align: center;
@@ -10,7 +10,6 @@ h1 {
   display: flex;
   justify-content: center;
 }
-
 
 div.item {
   position: relative;
@@ -36,13 +35,13 @@ div.item img {
   transition: 0.5s opacity linear 0s;
 }
 
-div.item:hover img{
+div.item:hover img {
   opacity: 0.3;
   filter: grayscale(100%);
   transition: 0.5s opacity linear 0s;
 }
 
-div.item:hover i{
+div.item:hover i {
   transform: translate(-50%, -50%) scale(1);
   transition: 0.5s transform linear 0s;
 }
@@ -90,30 +89,30 @@ div.item.green i {
   color: #16a085;
 }
 
-@keyframes rainbowtext{
-  0%{
-    color:red;
-    font-size:20px;
-  }  
-  25%{
-    color:orange;
+@keyframes rainbowtext {
+  0% {
+    color: red;
+    font-size: 20px;
+  }
+  25% {
+    color: orange;
     /*font-size:20px;*/
-  }  
-  50%{
-    color:yellow;
-    font-size:40px;
-  }  
-  75%{
-    color:green;
+  }
+  50% {
+    color: yellow;
+    font-size: 40px;
+  }
+  75% {
+    color: green;
     /*font-size:20px;*/
-  }  
-  100%{
-    color:blue;
-    font-size:20px;
+  }
+  100% {
+    color: blue;
+    font-size: 20px;
   }
 }
 
-p{
+p {
   animation-name: rainbowtext;
   animation-duration: 3s;
   animation-timing-function: linear;
